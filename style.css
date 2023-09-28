@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+body {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 15px;
+  width: 36%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.notifications-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.notif-count {
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+  padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+}
+
+.mark-all {
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.mark-all:active {
+  color: hsl(219, 85%, 26%);
+}
+
+.main {
+  margin: 1rem;
+}
+
+.new-notifications-container {
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.new-notifications-container .inner-content::after {
+  content:  ' ';
+  display: flex;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 0.4rem;
+}
+
+
+.notifications-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.image-container {
+  margin: 1rem;;
+}
+
+.notifications-activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.name {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.name:active {
+  color: hsl(219, 85%, 26%);
+}
+
+.link-activity .name {
+  color: black;
+}
+
+.activity {
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+
+.link-activity {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.link-activity:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.link-activity-2 {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.notif-time {
+  color: hsl(219, 14%, 63%);
+}
+
+.content-image {
+  cursor: pointer;
+}
+
+.private-message {
+  border-radius: 10px;
+  border: 1px solid hsl(211, 68%, 94%);
+  color: hsl(219, 12%, 42%);
+  margin-top: 0.5rem;
+}
+
+.private-message:hover {
+  background-color: hsl(211, 68%, 94%);
+}
+
+.message {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+
